@@ -1,6 +1,9 @@
-import java.sql.*;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.util.Vector;
-import javax.swing.table.*;
+
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
 
 public class DBUtils {
 

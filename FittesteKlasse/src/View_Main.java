@@ -123,6 +123,7 @@ public class View_Main extends JFrame {
 		gbc_comboKlasse.fill = GridBagConstraints.HORIZONTAL;
 		gbc_comboKlasse.gridx = 1;
 		gbc_comboKlasse.gridy = 2;
+		
 		panelAuswahl.add(comboBox_Klasse, gbc_comboKlasse);
 
 		JLabel lblDisziplin = new JLabel("Disziplin:");
